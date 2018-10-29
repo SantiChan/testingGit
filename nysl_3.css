@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Mali');
+
+/*parte inicial del body*/
+*{}
+body{
+	
+	background-image: url(img/fotomural-campo-de-futbol-en-medio-del-estadio.jpg);
+	background-repeat: no-repeat;
+    background-size: contain;
+	background-color:black;
+}
+
+.img{
+	
+	width: 60%;
+	height: 500px;
+	margin-top:0px;
+	background-image: url('img/diseno-de-marco-de-futbol_62860-35.jpg');
+	background-repeat: no-repeat;
+    background-size: contain;
+	margin-left:412px;
+}
+
+.league{
+	
+	width: 370px;
+	margin-top: 60px;
+	color: white;
+	height: 60px;
+	font-family:Gloria Hallelujah;
+	font-style: italic;
+	position: absolute;
+	font-size:61px;
+	margin-left: 80px;
+}
+
+
+.head{
+	
+	width:495px;
+	margin-top: 20px;
+	background: black;
+	margin-right:auto;
+	margin-left:auto;
+	border-radius: 40px;
+}
+
+.color{ /* estilo encabezado de la informacion*/
+	
+
+	height:80px;
+	font-size: 50px;
+	text-align: center;
+	color:white;
+	text-decoration: underline;
+	font-family:Gloria Hallelujah;
+}
+
+.logo{
+	
+	float: right;
+	position: absoluteS;
+	margin-top:-365px;
+	margin-right:445px;
+}
+
+.logo2 {
+	width:190px;
+	height:190px;
+}
+/*menu de opciones*/
+
+.main-menu{
+	
+	position:relative;
+	float:left;
+	left: 8px;
+	top: 0px;
+	width: 1310px;
+	background: linear-gradient(to bottom, black, grey);
+	height: 55px;
+	padding-bottom: 25px;
+}
+
+.main-menu a{
+	
+	font-family:Gloria Hallelujah;
+	text-decoration: none;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.main-menu p{
+	
+	font-size: 16px;
+	font-style: italic;
+    font-weight: bold;
+}
+
+
+.options{ /*btones de enlace*/
+	float:left;
+	width: 140px; 
+	margin-right: 15px;
+	margin-left: 40px;
+	padding: 10px;
+    text-align: center; 
+    background-color:forestgreen;
+	border-radius: 10px;
+	color: white;
+}
+
+
+/*contenedor de la informacion*/
+.content2{
+	width: 1200px;
+	background-color: white;
+	border-style: solid;
+    border-color: black;
+	border-width: 5px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	font-family:Gloria Hallelujah;
+	padding:20px;
+}
+
+.info{ /* para centrar la informacion*/
+	
+	float: right;
+	text-align: center;
+	width:100%;
+}
+
+
+.p{
+	text-align: center;
+	
+}
+
+
+.change {  /*fuente y forma de la informacion*/
+	
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration:underline; 
+}
+
+
+.center{ /*estilo encabezado de la informacion*/
+	
+	text-align: center;
+	font-family:Gloria Hallelujah;
+}
+
+/* estilos forma y colocacion de lista*/
+.style{
+	
+	font-weight: bold;
+	font-size:20px;
+	text-decoration: underline;
+}
+
+.aline{ /*estilo encabezado de info*/
+	
+	text-align: center;
+	font-family:Gloria Hallelujah;
+}
+
+/*lista y estilo de la lista, content2 es el contenedor dela info*/
+.content2 h3{
+	
+	margin-bottom: 0px;
+}
+
+.content2 ol,
+.content2 ul{
+	
+	margin-top: 0px;
+}
+
+.content2 li.space{
+	margin-bottom: 10px;
+	
+}
+
+
+/*tabla y estilos*/
+
+th {
+	text-decoration: underline;
+	text-align: left;
+}
+
+.line{
+	text-decoration: underline;
+}
+
+table td{
+	width: 130px;
+}
+
+.size{
+	margin-top: 20px;
+}
+
+.size td {
+	width: 200px;
+	font-size:20px;
+}
+
+p2{
+	margin-right: 150px;
+}
+
+.content-align{
+	
+    margin-left: 330px;
+	font-family:Gloria Hallelujah;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.space{
+	margin-left: 30px;
+}
+
+.center{
+	
+	text-align: center;
+	font-family:Gloria Hallelujah;
+}
+
+.jail td,th{
+	border-collapse: separate;
+	border: 3px solid black;
+	background-color: darkgreen;
+	color:white;
+}
+
+.jail{
+	margin-top: 30px;
+	margin-bottom:20px;
+}
+
+.green{ /*estilo de mapa y background mapa*/
+	background-image:url(img/CESPED_MOQUETA1.jpg);
+	border-collapse: collapse;
+	border: 3px solid black;
+	color:white;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+
+/*formulario y estilo con felxbox*/
+.form1{
+	display:flex;
+	flex-direction:column;
+}
+
+.name{
+	
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:850px;
+	flex-grow:1;
+
+	
+	
+}  
+
+.address{
+	width: 880px;
+}
+
+.home{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width:850px;
+}
+
+.bday{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width: 650px;
+}
+
+.course{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width: 700px;
+}
+
+.parents{
+	width:800px;
+}
+
+/* ordenacion de formulario con flex-box*/
+.find{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width: 857px;
+}
+
+.teams{
+	
+	display: flex;
+	flex-direction: row; 
+}
+
+.position{
+	display:flex;
+	flex-direction:column;
+
+}
+
+.clothes{
+	display:flex;
+	flex-direction: row;
+	align-content: space-between;
+	flex-grow: 1;
+	
+}
+
+.position4{
+	display:flex;
+	flex-direction:column;
+}
+
+.position5{
+	display:flex;
+	flex-direction:column;
+}
+
+.align-size{
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.margin{
+margin-top:-57px;
+}
+
+/* movimiento del logo */
+.logo2 {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.clothes2{
+	display:flex;
+	flex-direction: row;
+	flex-grow:1;
+}
