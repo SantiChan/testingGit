@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato|Mali');
 
 /*parte inicial del body*/
-*{}
+
 body{
 	
-	background-image: url(img/fotomural-campo-de-futbol-en-medio-del-estadio.jpg);
+	background-image: url('../img/fotomural-campo-de-futbol-en-medio-del-estadio.jpg');
 	background-repeat: no-repeat;
     background-size: contain;
 	background-color:black;
@@ -15,7 +15,7 @@ body{
 	width: 60%;
 	height: 500px;
 	margin-top:0px;
-	background-image: url('img/diseno-de-marco-de-futbol_62860-35.jpg');
+	background-image: url('../img/diseno-de-marco-de-futbol_62860-35.jpg');
 	background-repeat: no-repeat;
     background-size: contain;
 	margin-left:412px;
@@ -245,7 +245,7 @@ p2{
 }
 
 .green{ /*estilo de mapa y background mapa*/
-	background-image:url(img/CESPED_MOQUETA1.jpg);
+	background-image:url('../img/CESPED_MOQUETA1.jpg');
 	border-collapse: collapse;
 	border: 3px solid black;
 	color:white;
@@ -255,7 +255,7 @@ p2{
 }
 
 
-/*formulario y estilo con felxbox*/
+/*formulario y estilo con flexbox*/
 .form1{
 	display:flex;
 	flex-direction:column;
